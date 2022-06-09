@@ -1,15 +1,20 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
+	color: rgba(248, 247, 247, 0.858);
+	background-color: rgb(0, 0, 0);
 	text-align: center;
 	line-height: 1.4em;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .container {
 	padding: 0;
 	margin-top: 40px;
+	text-align: center;
+	
 }
 
 h3 {
@@ -22,11 +27,23 @@ h3 {
 
 code {
   font-family: monospace;
-  padding: 2px;
+  padding: 4px;
   color: black;
   background-color: #fff;
+  border-radius: 4px;
 }
 
 a {
 	color: #2574A9;
+}
+
+b{
+	color: #9a6e2f;
+}
+
+@media (max-width: 400) {
+	code {
+		width: 70%;
+	}
+	
 }
